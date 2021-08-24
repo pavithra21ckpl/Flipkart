@@ -1,0 +1,16 @@
+2021-08-24 11:09:08,747  INFO [main] LoginPageTest:24 - *****Flipkart site is launching*******
+2021-08-24 11:09:09,053  INFO [main] LoginPageTest:31 - *****checked login icon*******
+2021-08-24 11:09:50,983  INFO [main] LoginPageTest:30 - launching flipkart website
+2021-08-24 11:09:51,597  INFO [main] LoginPageTest:34 - logging into flipkart website
+2021-08-24 11:09:54,947  INFO [main] LoginPageTest:36 - searching oppo reno 6 in the searchbar
+2021-08-24 11:09:56,102  INFO [main] LoginPageTest:38 - selecting oppo reno 6 
+2021-08-24 11:09:59,127  INFO [main] LoginPageTest:40 - clicking on the buynow button
+2021-08-24 11:10:02,827  INFO [main] LoginPageTest:46 - verifying order summary element in the page
+2021-08-24 11:10:09,617  INFO [main] LoginPageTest:24 - *****Flipkart site is launching*******
+2021-08-24 11:10:10,312  INFO [main] LoginPageTest:36 - *****entering login credentials*******
+2021-08-24 11:10:55,208  INFO [main] LoginPageTest:30 - launching flipkart website
+2021-08-24 11:10:55,868  INFO [main] LoginPageTest:34 - logging into flipkart website
+2021-08-24 11:10:59,267  INFO [main] LoginPageTest:36 - searching oppo reno 6 in the searchbar
+2021-08-24 11:11:00,662  INFO [main] LoginPageTest:38 - selecting oppo reno 6 
+2021-08-24 11:11:03,772  INFO [main] LoginPageTest:40 - clicking on the buynow button
+2021-08-24 11:11:09,873  WARN [main] LoginPageTest:51 - card credentials are incorrect

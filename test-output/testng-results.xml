@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="130589" started-at="2021-08-24T05:39:00Z" finished-at="2021-08-24T05:41:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="130589" started-at="2021-08-24T05:39:00Z" finished-at="2021-08-24T05:41:11Z">
+      <class name="flipkart.testcases.OrderSummaryPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.OrderSummaryPageTest@1786dec2]" name="setup" is-config="true" duration-ms="14252" started-at="2021-08-24T05:39:44Z" finished-at="2021-08-24T05:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyOrderSummaryTextTest()[pri:0, instance:flipkart.testcases.OrderSummaryPageTest@1786dec2]" name="verifyOrderSummaryTextTest" duration-ms="3700" started-at="2021-08-24T05:39:59Z" finished-at="2021-08-24T05:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderSummaryTextTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.OrderSummaryPageTest@1786dec2]" name="browserClose" is-config="true" duration-ms="1074" started-at="2021-08-24T05:40:02Z" finished-at="2021-08-24T05:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.OrderSummaryPageTest@1786dec2]" name="setup" is-config="true" duration-ms="14185" started-at="2021-08-24T05:40:49Z" finished-at="2021-08-24T05:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="paymentTest()[pri:1, instance:flipkart.testcases.OrderSummaryPageTest@1786dec2]" name="paymentTest" duration-ms="6101" started-at="2021-08-24T05:41:03Z" finished-at="2021-08-24T05:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.OrderSummaryPageTest@1786dec2]" name="browserClose" is-config="true" duration-ms="1658" started-at="2021-08-24T05:41:09Z" finished-at="2021-08-24T05:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- flipkart.testcases.OrderSummaryPageTest -->
+      <class name="flipkart.testcases.MobilePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.MobilePageTest@3b088d51]" name="setup" is-config="true" duration-ms="9805" started-at="2021-08-24T05:39:33Z" finished-at="2021-08-24T05:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyMyAccountTest()[pri:0, instance:flipkart.testcases.MobilePageTest@3b088d51]" name="VerifyMyAccountTest" duration-ms="15" started-at="2021-08-24T05:39:43Z" finished-at="2021-08-24T05:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMyAccountTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.MobilePageTest@3b088d51]" name="browserClose" is-config="true" duration-ms="1198" started-at="2021-08-24T05:39:43Z" finished-at="2021-08-24T05:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.MobilePageTest@3b088d51]" name="setup" is-config="true" duration-ms="10029" started-at="2021-08-24T05:40:37Z" finished-at="2021-08-24T05:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchProductTest()[pri:1, instance:flipkart.testcases.MobilePageTest@3b088d51]" name="SearchProductTest" duration-ms="1260" started-at="2021-08-24T05:40:47Z" finished-at="2021-08-24T05:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.MobilePageTest@3b088d51]" name="browserClose" is-config="true" duration-ms="1085" started-at="2021-08-24T05:40:48Z" finished-at="2021-08-24T05:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- flipkart.testcases.MobilePageTest -->
+      <class name="flipkart.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.LoginPageTest@1e965684]" name="setup" is-config="true" duration-ms="7830" started-at="2021-08-24T05:39:00Z" finished-at="2021-08-24T05:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginTest()[pri:0, instance:flipkart.testcases.LoginPageTest@1e965684]" name="validateLoginTest" duration-ms="225" started-at="2021-08-24T05:39:08Z" finished-at="2021-08-24T05:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.LoginPageTest@1e965684]" name="browserClose" is-config="true" duration-ms="978" started-at="2021-08-24T05:39:09Z" finished-at="2021-08-24T05:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.LoginPageTest@1e965684]" name="setup" is-config="true" duration-ms="5711" started-at="2021-08-24T05:40:03Z" finished-at="2021-08-24T05:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginProcessTest()[pri:1, instance:flipkart.testcases.LoginPageTest@1e965684]" name="loginProcessTest" duration-ms="695" started-at="2021-08-24T05:40:09Z" finished-at="2021-08-24T05:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginProcessTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.LoginPageTest@1e965684]" name="browserClose" is-config="true" duration-ms="947" started-at="2021-08-24T05:40:10Z" finished-at="2021-08-24T05:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- flipkart.testcases.LoginPageTest -->
+      <class name="flipkart.testcases.OppoRenoPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.OppoRenoPageTest@53f65459]" name="setup" is-config="true" duration-ms="11337" started-at="2021-08-24T05:39:18Z" finished-at="2021-08-24T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyAddToCartButtonTest()[pri:0, instance:flipkart.testcases.OppoRenoPageTest@53f65459]" name="VerifyAddToCartButtonTest" duration-ms="2813" started-at="2021-08-24T05:39:29Z" finished-at="2021-08-24T05:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCartButtonTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.OppoRenoPageTest@53f65459]" name="browserClose" is-config="true" duration-ms="1160" started-at="2021-08-24T05:39:32Z" finished-at="2021-08-24T05:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.OppoRenoPageTest@53f65459]" name="setup" is-config="true" duration-ms="11630" started-at="2021-08-24T05:40:21Z" finished-at="2021-08-24T05:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchProductTest()[pri:1, instance:flipkart.testcases.OppoRenoPageTest@53f65459]" name="SearchProductTest" duration-ms="2695" started-at="2021-08-24T05:40:33Z" finished-at="2021-08-24T05:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.OppoRenoPageTest@53f65459]" name="browserClose" is-config="true" duration-ms="1041" started-at="2021-08-24T05:40:36Z" finished-at="2021-08-24T05:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- flipkart.testcases.OppoRenoPageTest -->
+      <class name="flipkart.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.HomePageTest@4d95d2a2]" name="setup" is-config="true" duration-ms="7480" started-at="2021-08-24T05:39:10Z" finished-at="2021-08-24T05:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyMyAccountTest()[pri:0, instance:flipkart.testcases.HomePageTest@4d95d2a2]" name="VerifyMyAccountTest" duration-ms="75" started-at="2021-08-24T05:39:17Z" finished-at="2021-08-24T05:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMyAccountTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.HomePageTest@4d95d2a2]" name="browserClose" is-config="true" duration-ms="950" started-at="2021-08-24T05:39:17Z" finished-at="2021-08-24T05:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:flipkart.testcases.HomePageTest@4d95d2a2]" name="setup" is-config="true" duration-ms="6327" started-at="2021-08-24T05:40:11Z" finished-at="2021-08-24T05:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchProductTest()[pri:1, instance:flipkart.testcases.HomePageTest@4d95d2a2]" name="SearchProductTest" duration-ms="3286" started-at="2021-08-24T05:40:17Z" finished-at="2021-08-24T05:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:flipkart.testcases.HomePageTest@4d95d2a2]" name="browserClose" is-config="true" duration-ms="964" started-at="2021-08-24T05:40:20Z" finished-at="2021-08-24T05:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- flipkart.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

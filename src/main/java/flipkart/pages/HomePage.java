@@ -1,4 +1,6 @@
 package flipkart.pages;
+import java.io.IOException;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -19,9 +21,9 @@ public HomePage() {
 public  boolean VerifyMyAccount() {
 	return MyAccount.isDisplayed();
 }
-public  MobilePage SearchProduct() throws InterruptedException {
+public  MobilePage SearchProduct() throws InterruptedException, IOException {
 	Thread.sleep(3000);
-	SearchBar.sendKeys("oppo reno 6");
+	SearchBar.sendKeys(map().get("MobileName"));
 	SearchButton.click();
 	return new MobilePage();
 }

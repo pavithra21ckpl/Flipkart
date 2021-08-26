@@ -1,16 +1,25 @@
-2021-08-24 11:09:08,747  INFO [main] LoginPageTest:24 - *****Flipkart site is launching*******
-2021-08-24 11:09:09,053  INFO [main] LoginPageTest:31 - *****checked login icon*******
-2021-08-24 11:09:50,983  INFO [main] LoginPageTest:30 - launching flipkart website
-2021-08-24 11:09:51,597  INFO [main] LoginPageTest:34 - logging into flipkart website
-2021-08-24 11:09:54,947  INFO [main] LoginPageTest:36 - searching oppo reno 6 in the searchbar
-2021-08-24 11:09:56,102  INFO [main] LoginPageTest:38 - selecting oppo reno 6 
-2021-08-24 11:09:59,127  INFO [main] LoginPageTest:40 - clicking on the buynow button
-2021-08-24 11:10:02,827  INFO [main] LoginPageTest:46 - verifying order summary element in the page
-2021-08-24 11:10:09,617  INFO [main] LoginPageTest:24 - *****Flipkart site is launching*******
-2021-08-24 11:10:10,312  INFO [main] LoginPageTest:36 - *****entering login credentials*******
-2021-08-24 11:10:55,208  INFO [main] LoginPageTest:30 - launching flipkart website
-2021-08-24 11:10:55,868  INFO [main] LoginPageTest:34 - logging into flipkart website
-2021-08-24 11:10:59,267  INFO [main] LoginPageTest:36 - searching oppo reno 6 in the searchbar
-2021-08-24 11:11:00,662  INFO [main] LoginPageTest:38 - selecting oppo reno 6 
-2021-08-24 11:11:03,772  INFO [main] LoginPageTest:40 - clicking on the buynow button
-2021-08-24 11:11:09,873  WARN [main] LoginPageTest:51 - card credentials are incorrect
+2021-08-25 17:08:22,663  INFO [main] LoginPageTest:24 - *****Flipkart site is launching*******
+2021-08-25 17:08:22,832  INFO [main] LoginPageTest:31 - *****checked login icon*******
+2021-08-25 17:09:05,145  INFO [main] OrderSummaryPageTest:30 - launching flipkart website
+2021-08-25 17:09:05,863  INFO [main] OrderSummaryPageTest:34 - logging into flipkart website
+2021-08-25 17:09:09,154  INFO [main] OrderSummaryPageTest:36 - searching oppo reno 6 in the searchbar
+2021-08-25 17:09:10,246  INFO [main] OrderSummaryPageTest:38 - selecting oppo reno 6 
+2021-08-25 17:09:13,442  INFO [main] OrderSummaryPageTest:40 - clicking on the buynow button
+2021-08-25 17:09:20,110  INFO [main] OrderSummaryPageTest:46 - verifying order summary element in the page
+2021-08-25 17:09:27,017  INFO [main] LoginPageTest:24 - *****Flipkart site is launching*******
+2021-08-25 17:09:27,604  INFO [main] LoginPageTest:36 - *****entering login credentials*******
+2021-08-25 17:10:16,653  INFO [main] OrderSummaryPageTest:30 - launching flipkart website
+2021-08-25 17:10:17,259  INFO [main] OrderSummaryPageTest:34 - logging into flipkart website
+2021-08-25 17:10:22,345  INFO [main] OrderSummaryPageTest:36 - searching oppo reno 6 in the searchbar
+2021-08-25 17:10:23,563  INFO [main] OrderSummaryPageTest:38 - selecting oppo reno 6 
+2021-08-25 17:10:31,024  INFO [main] OrderSummaryPageTest:40 - clicking on the buynow button
+2021-08-25 17:10:44,836 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-25 17:10:44,845 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-08-25 17:10:44,847 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-08-25 17:10:44,847 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-08-25 17:10:44,847 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-08-25 17:10:45,218 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-25 17:10:45,218 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-08-25 17:10:45,218 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-08-25 17:10:45,226 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-08-25 17:10:45,226 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

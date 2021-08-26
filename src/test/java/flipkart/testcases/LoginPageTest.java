@@ -31,7 +31,7 @@ public void validateLoginTest() {
 	log.info("*****checked login icon*******");
 }
 @Test(priority=1)
-public void loginProcessTest(){
+public void loginProcessTest() throws IOException{
 	homePage=loginPage.LoginProcess();
 	log.info("*****entering login credentials*******");
 }

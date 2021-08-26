@@ -22,7 +22,7 @@ public class OrderSummaryPageTest extends TestBase{
 	LoginPage loginPage;
 	OppoRenoPage oppoRenoPage;
 	OrderSummaryPage orderSummaryPage;
-	Logger log=Logger.getLogger(LoginPageTest.class);
+	Logger log=Logger.getLogger(OrderSummaryPageTest.class);
 	
 @BeforeMethod
 public void setup() throws IOException, InterruptedException {
@@ -46,10 +46,11 @@ public void verifyOrderSummaryTextTest() {
 	log.info("verifying order summary element in the page");
 }
 @Test(priority=1)
-public void paymentTest() throws InterruptedException {
+public void paymentTest() throws InterruptedException, IOException {
 	orderSummaryPage.payment();
-	log.warn("card credentials are incorrect");
+	
 }
+
 @AfterMethod
 public void browserClose() {
 	driver.quit();

@@ -1,5 +1,7 @@
 package flipkart.pages;
 
+import java.io.IOException;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,19 +20,23 @@ public class OrderSummaryPage extends TestBase {
     WebElement CardNumber;
     @FindBy(xpath="//button[@class='_2KpZ6l _2nejCf _3AWRsL']")
     WebElement PayNowButton;
+    @FindBy(xpath="//span[@class='_2XN54t']")
+    WebElement InvalidMessage;
 public OrderSummaryPage() {
 	
 	PageFactory.initElements(driver,this);	
 }
-public void payment() throws InterruptedException {
+public void payment() throws InterruptedException, IOException {
 	ContinueButton.click();
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	js.executeScript("window.scrollBy(0,350)", "");
 	
 	Thread.sleep(3000);
 	ChooseCard.click();
-	CardNumber.sendKeys("1234");
+	CardNumber.sendKeys(map().get("CardNumber"));
 	PayNowButton.click();
+	String msg=InvalidMessage.getText();
+	System.out.println(msg);
 	
 	
 }
@@ -38,4 +44,8 @@ public void payment() throws InterruptedException {
 public boolean verifyOrderSummaryText() {
 	return OrderSummaryText.isDisplayed();
 }
+
+	
+
 }
+

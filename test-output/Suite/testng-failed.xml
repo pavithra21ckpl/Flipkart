@@ -3,28 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="flipkart.testcases.MobilePageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="browserClose"/>
-          <include name="SearchProductTest"/>
-        </methods>
-      </class> <!-- flipkart.testcases.MobilePageTest -->
       <class name="flipkart.testcases.OppoRenoPageTest">
         <methods>
           <include name="browserClose"/>
-          <include name="VerifyAddToCartButtonTest"/>
           <include name="setup"/>
           <include name="SearchProductTest"/>
         </methods>
       </class> <!-- flipkart.testcases.OppoRenoPageTest -->
-      <class name="flipkart.testcases.LoginPageTest">
-        <methods>
-          <include name="browserClose"/>
-          <include name="loginProcessTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- flipkart.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

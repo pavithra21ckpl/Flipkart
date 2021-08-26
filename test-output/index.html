@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\Administrator\eclipse-workspace\Test\SrcMainResourses\testNG.xml</span>
+                    <span>C:\Users\Administrator\eclipse-workspace\Test\src\main\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="flipkart.testcases.MobilePageTest" hash-for-method="SearchProductTest">SearchProductTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="flipkart.testcases.HomePageTest" hash-for-method="SearchProductTest">SearchProductTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -112,7 +112,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="flipkart.testcases.HomePageTest" hash-for-method="SearchProductTest">SearchProductTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="flipkart.testcases.MobilePageTest" hash-for-method="SearchProductTest">SearchProductTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -122,12 +122,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="flipkart.testcases.HomePageTest" hash-for-method="VerifyMyAccountTest">VerifyMyAccountTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="flipkart.testcases.MobilePageTest" hash-for-method="VerifyMyAccountTest">VerifyMyAccountTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="flipkart.testcases.MobilePageTest" hash-for-method="VerifyMyAccountTest">VerifyMyAccountTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="flipkart.testcases.HomePageTest" hash-for-method="VerifyMyAccountTest">VerifyMyAccountTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,21 +187,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">flipkart.testcases.LoginPageTest</span>
+              <span class="class-name">flipkart.testcases.OrderSummaryPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginProcessTest">
-                  </a> <!-- loginProcessTest -->
-                  <span class="method-name">loginProcessTest</span>
+                  <a name="paymentTest">
+                  </a> <!-- paymentTest -->
+                  <span class="method-name">paymentTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validateLoginTest">
-                  </a> <!-- validateLoginTest -->
-                  <span class="method-name">validateLoginTest</span>
+                  <a name="verifyOrderSummaryTextTest">
+                  </a> <!-- verifyOrderSummaryTextTest -->
+                  <span class="method-name">verifyOrderSummaryTextTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -253,21 +253,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">flipkart.testcases.OrderSummaryPageTest</span>
+              <span class="class-name">flipkart.testcases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="paymentTest">
-                  </a> <!-- paymentTest -->
-                  <span class="method-name">paymentTest</span>
+                  <a name="loginProcessTest">
+                  </a> <!-- loginProcessTest -->
+                  <span class="method-name">loginProcessTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyOrderSummaryTextTest">
-                  </a> <!-- verifyOrderSummaryTextTest -->
-                  <span class="method-name">verifyOrderSummaryTextTest</span>
+                  <a name="validateLoginTest">
+                  </a> <!-- validateLoginTest -->
+                  <span class="method-name">validateLoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -275,13 +275,16 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Administrator\eclipse-workspace\Test\SrcMainResourses\testNG.xml</span>
+            <span class="header-content">C:\Users\Administrator\eclipse-workspace\Test\src\main\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;extentListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;flipkart.testcases.LoginPageTest&quot;/&gt;
@@ -332,48 +335,48 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'paymentTest')
 data.setCell(0, 2, 'flipkart.testcases.OrderSummaryPageTest')
-data.setCell(0, 3, 6101);
+data.setCell(0, 3, 12136);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyOrderSummaryTextTest')
 data.setCell(1, 2, 'flipkart.testcases.OrderSummaryPageTest')
-data.setCell(1, 3, 3700);
+data.setCell(1, 3, 6668);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'SearchProductTest')
-data.setCell(2, 2, 'flipkart.testcases.HomePageTest')
-data.setCell(2, 3, 3286);
+data.setCell(2, 2, 'flipkart.testcases.OppoRenoPageTest')
+data.setCell(2, 3, 4354);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyAddToCartButtonTest')
-data.setCell(3, 2, 'flipkart.testcases.OppoRenoPageTest')
-data.setCell(3, 3, 2813);
+data.setCell(3, 1, 'SearchProductTest')
+data.setCell(3, 2, 'flipkart.testcases.HomePageTest')
+data.setCell(3, 3, 3292);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'SearchProductTest')
+data.setCell(4, 1, 'VerifyAddToCartButtonTest')
 data.setCell(4, 2, 'flipkart.testcases.OppoRenoPageTest')
-data.setCell(4, 3, 2695);
+data.setCell(4, 3, 2657);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'SearchProductTest')
 data.setCell(5, 2, 'flipkart.testcases.MobilePageTest')
-data.setCell(5, 3, 1260);
+data.setCell(5, 3, 1081);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'loginProcessTest')
 data.setCell(6, 2, 'flipkart.testcases.LoginPageTest')
-data.setCell(6, 3, 695);
+data.setCell(6, 3, 587);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validateLoginTest')
-data.setCell(7, 2, 'flipkart.testcases.LoginPageTest')
-data.setCell(7, 3, 225);
+data.setCell(7, 1, 'VerifyMyAccountTest')
+data.setCell(7, 2, 'flipkart.testcases.MobilePageTest')
+data.setCell(7, 3, 192);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'VerifyMyAccountTest')
-data.setCell(8, 2, 'flipkart.testcases.HomePageTest')
-data.setCell(8, 3, 75);
+data.setCell(8, 1, 'validateLoginTest')
+data.setCell(8, 2, 'flipkart.testcases.LoginPageTest')
+data.setCell(8, 3, 103);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'VerifyMyAccountTest')
-data.setCell(9, 2, 'flipkart.testcases.MobilePageTest')
-data.setCell(9, 3, 15);
+data.setCell(9, 2, 'flipkart.testcases.HomePageTest')
+data.setCell(9, 3, 72);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -406,146 +409,146 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateLoginTest</span>
-                <span class="method-start">7830 ms</span>
+                <span class="method-start">8954 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">8066 ms</span>
+                <span class="method-start">9057 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">flipkart.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9044 ms</span>
+                <span class="method-start">10013 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyMyAccountTest</span>
-                <span class="method-start">16524 ms</span>
+                <span class="method-start">19204 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">16599 ms</span>
+                <span class="method-start">19276 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">flipkart.testcases.OppoRenoPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">17549 ms</span>
+                <span class="method-start">20123 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyAddToCartButtonTest</span>
-                <span class="method-start">28886 ms</span>
+                <span class="method-start">30654 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">31699 ms</span>
+                <span class="method-start">33311 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">flipkart.testcases.MobilePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">32859 ms</span>
+                <span class="method-start">34098 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyMyAccountTest</span>
-                <span class="method-start">42664 ms</span>
+                <span class="method-start">45118 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">42679 ms</span>
+                <span class="method-start">45310 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">flipkart.testcases.OrderSummaryPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">43877 ms</span>
+                <span class="method-start">46210 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyOrderSummaryTextTest</span>
-                <span class="method-start">58129 ms</span>
+                <span class="method-start">59667 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">61834 ms</span>
+                <span class="method-start">66335 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">flipkart.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">62908 ms</span>
+                <span class="method-start">67289 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginProcessTest</span>
-                <span class="method-start">68619 ms</span>
+                <span class="method-start">73242 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">69320 ms</span>
+                <span class="method-start">73829 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">flipkart.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">70267 ms</span>
+                <span class="method-start">74701 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchProductTest</span>
-                <span class="method-start">76594 ms</span>
+                <span class="method-start">81965 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">79885 ms</span>
+                <span class="method-start">85257 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">flipkart.testcases.OppoRenoPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">80849 ms</span>
+                <span class="method-start">86124 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchProductTest</span>
-                <span class="method-start">92479 ms</span>
+                <span class="method-start">96658 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">95174 ms</span>
+                <span class="method-start">101012 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">flipkart.testcases.MobilePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">96215 ms</span>
+                <span class="method-start">102035 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchProductTest</span>
-                <span class="method-start">106244 ms</span>
+                <span class="method-start">114637 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">107504 ms</span>
+                <span class="method-start">115718 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">flipkart.testcases.OrderSummaryPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">108589 ms</span>
+                <span class="method-start">116527 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">paymentTest</span>
-                <span class="method-start">122774 ms</span>
+                <span class="method-start">137249 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">128880 ms</span>
+                <span class="method-start">149390 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
